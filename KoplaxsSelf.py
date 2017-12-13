@@ -6,18 +6,18 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re,os,subprocess
 
 cl = LINETCR.LINE()
-cl.login(qr=True)
+cl.login(token="EnOUE3dh9Co9riJFX6bd.iE1m3SpkNGCz8P9Fm6xKhq.IOY1SKhWzSrcDcjreg0NtTeCeoODCRBGG86B9m3Mf38=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(qr=True)
+ki.login(token="EnEpSJ50jcsFxGwiTGs4.NUzTunVvWU9OhpImHgLkLa.w/VFlCwXw5TUTJJ9wfsQz6dxyK+ov0QSYJsf/rW3HnA=")
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(qr=True)
+ki2.login(token="EnkXIEkRiAr5sM90XZS5.9uU2TqJ2+LuEZTKxf5dUrq.59sYMJzaCmgIXE++xxai8Kmhi2awOhOjt0DnkSyiUfY=")
 ki2.loginResult()
 
-print "login success plak"
+print "login success ^^"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
@@ -74,8 +74,8 @@ mid = cl.getProfile().mid
 kimid = ki.getProfile().mid
 ki2mid = ki2.getProfile().mid
 Bots=[mid,kimid,ki2mid]
-owner =["ued156c86ffa56024c0acba16f7889e6d"]
-admin = ["ued156c86ffa56024c0acba16f7889e6d"]
+owner =["u21ed4cdec3ca9e0719f29f5f33a5e41d"]
+admin = ["u21ed4cdec3ca9e0719f29f5f33a5e41d"]
 wait = {
     'contact':False,
     'autoJoin':True,
